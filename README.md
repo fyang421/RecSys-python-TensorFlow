@@ -1,2 +1,4 @@
 # Recommendation-System
-Hello World
+This project is to build a content based recommendation model that learns to rank hotels. User features used in the model include user country, user region, user city, travel destination, check in date, check out date, length of stay, number of adults, number of children, number of rooms, device etc. Item features used in the model include room price, room price with discount, hotel room capacity, average review score, number of reviews, star rating, region, country, makert, whether hostel, whether paid ads, whether special deal, whether popular brand etc. 
+
+A random forest model was built using scikit-learn and then a Wide&Deep model was built and trained using TensorFlow. Trained models predict the relevance socre of the candidate items. The predicted relevance scores can be used to rank the items and then serve to each user.
